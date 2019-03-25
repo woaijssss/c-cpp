@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# self condition
+学习文档/
