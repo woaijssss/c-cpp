@@ -19,6 +19,9 @@ int main()
         l.push_front(10);
         printf("%p\n", &l);
 
+        list<int>::iterator it;
+        l.erase(it);
+
         return 0;
 }
 

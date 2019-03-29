@@ -27,6 +27,10 @@ int main()
         cout << v1.capacity() << endl;  // 此时初始容量为10
         cout << v1.size() << endl;      // 此时元素个数为0
 
+        vector<int>::iterator it = v.begin();
+        cout << &it << endl;
+        it = v.erase(it);
+
         return 0;
 }
 
